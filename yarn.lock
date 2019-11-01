@@ -343,18 +343,16 @@ forever-agent@~0.6.1:
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
   integrity sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
 
-forge-convert-utils@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/forge-convert-utils/-/forge-convert-utils-1.0.1.tgz#30151143d5a712440847babd1643002fceaca66f"
-  integrity sha512-vKhl34MbKYfOsm19CiK6h/CaRzrc9ycqBfB23kl5GBFqWIutthDnsj/CgvQGeEknMA7sdGLThx3CC654T1sSaA==
+forge-convert-utils@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/forge-convert-utils/-/forge-convert-utils-1.0.2.tgz#eeff87938fb67304240a7722002cc33e3958bdaf"
+  integrity sha512-sPLuEKAZ0C8lFW2d9VYjt80hbcv1EU3lolbRkPcxi5n3jk20Xgm3QmGDVZdMLlJ1CgboTwvpWxcDVoZwul+mLw==
   dependencies:
-    "@types/sqlite3" "^3.1.5"
     adm-zip "^0.4.13"
     commander "^3.0.2"
     forge-server-utils "^7.0.0"
     fs-extra "^8.1.0"
     gltf-pipeline "^2.1.4"
-    sqlite3 "^4.1.0"
 
 forge-server-utils@^7.0.0, forge-server-utils@^7.2.1:
   version "7.2.1"
