@@ -1,0 +1,42 @@
+{
+  "name": "forge-convert-sqlite",
+  "version": "0.0.0",
+  "description": "Experimental library serializing/deserializing Autodesk Forge models to/from gltf/sqlite.",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc --out lib/docs src"
+  },
+  "author": "Petr Broz <petr.broz@autodesk.com>",
+  "license": "MIT",
+  "keywords": [
+    "autodesk",
+    "forge",
+    "gltf",
+    "sqlite",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petrbroz/forge-convert-sqlite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/petrbroz/forge-convert-sqlite/issues"
+  },
+  "homepage": "https://github.com/petrbroz/forge-convert-sqlite#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/sqlite3": "^3.1.5",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "forge-convert-utils": "^1.0.1",
+    "forge-server-utils": "^7.2.1",
+    "fs-extra": "^8.1.0",
+    "sqlite3": "^4.1.0"
+  }
+}
